@@ -6,8 +6,6 @@ const Intern = require('./lib/Intern.js');
 const generator = require('./util/generateHtml');
 const team = [];
 
-// think I will need to write logic to answer different questions based on if they want to add a Manager, Intern or Engineer
-
 const selectType = () => {
     inquirer.prompt([
         {
