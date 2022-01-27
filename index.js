@@ -65,7 +65,7 @@ const managerQuestions = () => {
 }
 
 const internQuestions = () => {
-    return inquirer.prompt([
+ inquirer.prompt([
 
         {
             type: "input",
@@ -87,11 +87,16 @@ const internQuestions = () => {
             message: "Please enter your team members school name:",
             name: "school"
         }
-    ]);
+    ])
+    .then(function (response) {
+        const intrn = new Intern(response.name, response.id, response.email, response.school)
+        team.push(intrn);
+        selectType();
+    });
 }
 
 const engineerQuestions = () => {
-    return inquirer.prompt([
+     inquirer.prompt([
         {
             type: "input",
             message: "Please enter your team members name:",
@@ -112,7 +117,12 @@ const engineerQuestions = () => {
             message: "Please enter your team members GitHub:",
             name: "github"
         },
-    ]);
+    ])
+    .then(function (response) {
+        const engnr = new Engineer(response.name, response.id, response.email, response.github)
+        team.push(engnr);
+        selectType();
+    });
 };
 
 const init = () => {
