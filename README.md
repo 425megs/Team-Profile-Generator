@@ -17,9 +17,9 @@ This tool utilizes the Node.js command-line to prompt the user with questions ab
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
 ![HTML webpage](./Assets/Team.png)
-Video walkthrough of test passing: https://youtu.be/7x08MndWtkw <br>
-Video walkthrough of inputs: https://youtu.be/pVbe8LDQRZw  <br>
-Video walkthrough of final result: https://youtu.be/c0UaAxymLw4 <br> 
+Video walkthrough of test passing: https://www.youtube.com/watch?v=7x08MndWtkw <br>
+Video walkthrough of inputs: https://www.youtube.com/watch?v=pVbe8LDQRZw <br>
+Video walkthrough of final result: https://www.youtube.com/watch?v=c0UaAxymLw4<br> 
 
 ## Technologies Used
 
